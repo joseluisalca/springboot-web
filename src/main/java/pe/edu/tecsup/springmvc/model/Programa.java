@@ -29,6 +29,13 @@ public class Programa implements Serializable {
     @Column(name = "codigo")
     private String codigo;
 
+    public Programa(Long id) {
+        this.id = id;
+    }
+
+    public Programa() {
+    }
+    
     @OneToMany(mappedBy = "programa", fetch = FetchType.LAZY)
     private List<Curso> cursos;
 

@@ -36,7 +36,7 @@ public class CursoDAOH extends BaseHibernateDAO implements CursoDAO {
     @Override
     public List<Curso> getByNombre(String nombre) {
 
-        String sql = "from " + Curso.class.getName() +" c "
+        String sql = "from " + Curso.class.getName()+" c "
                 + " left join fetch c.programa p "
                 + " where c.nombre like :NOMBRE ";
 
