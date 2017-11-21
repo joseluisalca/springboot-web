@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Cursos</title>
+        <title>Programas</title>
         <%@include file="/public/header.jsp" %>
     </head>
     <body>
@@ -14,15 +14,14 @@
                 <div class="col-md-12">
 
                     <a href="<%=request.getContextPath()%>/admin/programa/nuevo" class="btn btn-primary float-right" >Nuevo</a>
-                    <h1>Cursos</h1>
+                    <h1>Programas</h1>
 
                     <table class="table table-hover table-striped">
                         <thead>
                             <tr>
-                                <th>Curso</th>
-                                <th>Código</th>
-                                <th>Fecha Inicio</th>
                                 <th>Programa</th>
+                                <th>Detalle</th>
+                                <th>Codigo</th>
                                 <th></th>
                             </tr>
                         </thead>

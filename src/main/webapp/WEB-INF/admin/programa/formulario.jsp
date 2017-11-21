@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Cursos</title>
+        <title>Programa</title>
         <%@include file="/public/header.jsp" %>
     </head>
     <body>
@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="col-md-8 offset-md-2">
 
-                    <h1>${programa.id == null ? 'Nuevo Curso' : programa.nombre}</h1>
+                    <h1>${programa.id == null ? 'Nuevo Programa' : programa.nombre}</h1>
                     
                     <hr>
                     <form method="post" action="<%=request.getContextPath()%>/admin/programa/save">
