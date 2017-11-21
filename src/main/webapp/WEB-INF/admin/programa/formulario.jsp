@@ -25,6 +25,11 @@
                             <input type="text" name="nombre" class="form-control" value="${programa.nombre}" >
                         </div>
 
+                        <div class="form-group">
+                            <label class="control-label">Descripcion</label>
+                            <input type="text" name="descripcion" class="form-control" value="${programa.descripcion}" >
+                        </div>
+
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
